@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color: beige;">
+        <form>
+            <h2>REGISTRATION FORM</h2>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname"> <br><br>
+
+            <label for="sname">Second Name</label>
+            <input type="text" name="sname" id="sname"> <br><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"> <br><br>
+
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass"> <br><br>
+
+            <!-- <div style="background-color: aquamarine;">  -->
+                <h3>Gender</h3>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+
+                <input type="radio" name="gender" id="other" >
+                <label for="other">Other</label>
+            <!-- </div> -->
+
+            <div>
+                <h3>Hobbies</h3>
+
+                <input type="checkbox" name="game" id="football">
+                <label for="football">Football</label>
+
+                <input type="checkbox" name="game" id="cricket">
+                <label for="cricket">Cricket</label>
+
+                <input type="checkbox" name="game" id="tennis">
+                <label for="tennis">Tennis</label>
+            </div>
+
+            <!-- <div style="background-color: aquamarine;"> -->
+                <h3>State</h3>
+                <label for="state">State</label>
+                <select name="state" id="state">
+                    <option value="kerala">Kerala</option>
+                    <option value="tamilnadu">Thamilnadu</option>
+                    <option value="karnataka">Karnataka</option>
+                    
+
+                </select>
+            <!-- </div> -->
+            <br><br>
+            <div>
+                
+                <label for="address">Address</label>
+                <textarea name="address" id="adress" cols="30" rows="5"></textarea>
+            </div>
+
+            <h3>Upload Photos</h3>
+            <label for="file">Upload</label>
+            <input type="file" name="Photos" id="photos">
+
+            <br><br>
+
+            <input type="button" value="Register">
+
+        </form>
+    </div>
+</body>
+</html>
